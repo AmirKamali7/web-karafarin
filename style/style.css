@@ -80,19 +80,17 @@ body {
 #header .img-header img {
   width: 100%;
 }
-/* imge-shado {
-  position: absolute;
-} */
 #header .container-header {
   position: relative;
 }
-#header .content-header {
+#header .imge-shado {
   position: absolute;
-  top: 25px;
-  right: 90px;
+  z-index: -55;
+  top: 20px;
+  right: -30px;
 }
 #header .button-header {
-  padding: 55px 50px;
+  padding: 0px 25px;
 }
 #header .content-header .btn-free {
   background-color: var(--primary-color);
@@ -373,6 +371,11 @@ background-color: var(--primary-color);
   width: 100px;
   height: 100px;
 }
+#footer .mnu-footer{
+  border-radius: 25px;
+  border: 1px solid rgba(54, 162, 197, 0.2);
+  background-color: #fff;
+}
 
 #footer .mnu-footer li {
   list-style: none;
@@ -382,4 +385,24 @@ background-color: var(--primary-color);
   text-decoration: none;
   color: #778794;
 
+}
+#footer .communication{
+  border-radius: 25px;
+  border: 1px solid rgba(54, 162, 197, 0.2);
+  background-color: #fff;
+}
+#footer .logo-communication svg{
+  width: 30px;
+  height: 25px;
+  color: #778794;
+  transition: .5s;
+}
+#footer .logo-communication svg:hover{
+  color: var(--primary-color);
+  transition: .5s;
+}
+#footer .communication-address svg{
+  height: 15px;
+  margin: 0px 4px;
+  color: #e4d1b8;
 }
