@@ -100,8 +100,8 @@ body {
 #header .imge-shado {
   position: absolute;
   z-index: -55;
-  top: 20px;
-  right: -30px;
+  top: 30px;
+  right: 0;
 }
 #header .button-header {
   padding: 0px 25px;
@@ -442,4 +442,16 @@ background-color: var(--primary-color);
   height: 15px;
   margin: 0px 4px;
   color: #e4d1b8;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+.accordion-button {
+  border: none;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #fff !important;
+}
+.accordion-collapse {
+  border: none;
 }
