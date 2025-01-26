@@ -1,3 +1,13 @@
+
+@font-face {
+  font-family: 'yekan';
+  src: url('../fonts/eot/IRANYekanWebMedium.eot') format('truetype');
+  font-weight: normal;
+}
+
+*{
+  font-family: 'yekan';
+}
 body {
   direction: rtl;
   box-sizing: border-box;
@@ -239,6 +249,18 @@ body {
 #Achievement .box-Winner .content-box {
   padding: 0 0;
 }
+/* section-Status-board  */
+
+#status-board .container{
+  background-image: url(/img/progress-box.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
 
 /* section-tariff */
 

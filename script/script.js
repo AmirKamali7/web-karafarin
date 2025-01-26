@@ -1,3 +1,21 @@
+function convertToPersianNumbers(str) {
+    const persianNumbers = ['۰', '۱', '۲', '۳', '۴', '۵', '۶', '۷', '۸', '۹'];
+    return str.replace(/\d/g, function (match) {
+        return persianNumbers[parseInt(match)];
+    });
+}
+
+function convertAllNumbersToPersian() {
+    const elements = document.querySelectorAll('*');
+    elements.forEach(element => {
+        if (element.children.length === 0) {
+            element.innerHTML = convertToPersianNumbers(element.innerHTML);
+        }
+    });
+}
+
+document.addEventListener('DOMContentLoaded', convertAllNumbersToPersian);
+
 var swiper = new Swiper(".mySwiper", {
     navigation: {
       nextEl: ".swiper-button-next",
