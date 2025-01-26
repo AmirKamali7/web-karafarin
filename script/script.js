@@ -1,3 +1,7 @@
+
+// Persianization-numbers
+
+document.addEventListener('DOMContentLoaded', convertAllNumbersToPersian);
 function convertToPersianNumbers(str) {
     const persianNumbers = ['۰', '۱', '۲', '۳', '۴', '۵', '۶', '۷', '۸', '۹'];
     return str.replace(/\d/g, function (match) {
@@ -14,8 +18,7 @@ function convertAllNumbersToPersian() {
     });
 }
 
-document.addEventListener('DOMContentLoaded', convertAllNumbersToPersian);
-
+// slaiders
 var swiper = new Swiper(".mySwiper", {
     navigation: {
       nextEl: ".swiper-button-next",
@@ -42,4 +45,36 @@ var swiper = new Swiper(".mySwiper", {
             slidesPerView: 3, // large
         },
     },
+});
+
+
+// section-Status-board
+document.addEventListener('DOMContentLoaded', function() {
+    var a = 0;
+    window.addEventListener('scroll', function() {
+        var oTop = document.querySelector('.text-status').offsetTop - window.innerHeight;
+        if (a == 0 && window.scrollY > oTop) {
+            document.querySelectorAll('.count').forEach(function(element) {
+                var countTo = element.getAttribute('data-number');
+                var countNum = 0;
+                var duration = 2000;
+                var startTime = null;
+
+                function animateCount(timestamp) {
+                    if (!startTime) startTime = timestamp;
+                    var progress = timestamp - startTime;
+                    var currentCount = Math.min(Math.ceil((progress / duration) * countTo), countTo);
+                    element.textContent = currentCount.toLocaleString('fa-IR');
+                    if (progress < duration) {
+                        requestAnimationFrame(animateCount);
+                    } else {
+                        element.textContent = countTo.toLocaleString('fa-IR');
+                    }
+                }
+
+                requestAnimationFrame(animateCount);
+            });
+            a = 1;
+        }
+    });
 });

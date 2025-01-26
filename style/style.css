@@ -5,6 +5,7 @@
   font-weight: normal;
 }
 
+
 *{
   font-family: 'yekan';
 }
@@ -40,6 +41,9 @@ body {
   width: 25px;
   height: 25px;
   color: #e4d1b8;
+}
+.color-white{
+  color: #fff;
 }
 
 .fade-away {
@@ -256,9 +260,20 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 25px;
 }
 
-
+#status-board .icon-status{
+  width: 90px;
+  height: 90px;
+  background: rgb(255 255 255 / 22%);
+    border-radius: 50%;
+}
+#status-board .icon-status svg{
+  width: 35px;
+  height: 35px;
+  color: #fff;
+}
 
 
 
