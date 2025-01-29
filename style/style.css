@@ -315,7 +315,6 @@ body {
   background-size: cover;
   border-radius: 25px;
 }
-
 #status-board .icon-status {
   width: 90px;
   height: 90px;
@@ -329,11 +328,9 @@ body {
 }
 
 /* section-tariff */
-
 #tariff .Title-page {
   margin: 85px 0;
 }
-
 #tariff .box-tariff {
   box-shadow: 0px 0px 30px 0px rgba(54, 162, 197, .05);
   border: 1px solid rgba(54, 162, 197, .2);
@@ -396,9 +393,30 @@ body {
   transition: .5s;
 }
 #article .img-article {
+  position: relative;
   overflow: hidden;
   border-radius: 19px;
 }
+#article .img-article .title-img{
+  position: absolute;
+  top: 25px;
+  left: 25px;
+}
+#article .img-article .title-img a{
+  background-color: #e5d1b8;
+  border-radius: 25px;
+  padding: 3px 12px;
+  color: #fff;
+  font-size: 12px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+#article .img-article .title-img a:hover{
+  background-color: #000000;
+  color: #fff;
+  transition: 0.5s;
+}
+
 #article .img-article img {
   width: 100%;
   overflow: hidden;
@@ -436,7 +454,21 @@ body {
 }
 
 /* footer */
-
+#button-top{
+  position: fixed;
+  left: 30px;
+  bottom: 20px;
+  background: var(--primary-color);
+  color: #fff;
+  border-radius: 12px;
+  width: 40px;
+  height: 40px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  
+}
 #footer {
   background-color: #fafbfc;
 }
