@@ -124,3 +124,71 @@
     --primary-color:#36a2c5;
     --transition: 300ms
 }
+
+
+
+@font-face {
+    font-family: 'yekan';
+    src: url(../fonts/eot/IRANYekanWebMedium.eot) format('eot');
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: 'HodaTorabikhah';
+    src: url('../font/HodaTorabikhah.ttf') format('truetype');
+    font-weight: normal;
+  }
+  
+  @font-face {
+    font-family: 'HodaTorabikhah';
+    src: url('../font/HodaTorabikhah.ttf') format('truetype');
+    font-weight: bold;
+  }
+  
+  @font-face {
+    font-family: 'HodaTorabikhah';
+    src: url('../font/HodaTorabikhah.ttf') format('truetype');
+    font-weight: 300;
+  }
+  
+  * {
+    font-family: 'HodaTorabikhah', sans-serif;
+  }
+  body {
+    direction: rtl;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: var(--font-normal);
+  }
+  
+
+  /* Duplicate codes */
+  .interest svg {
+    width: 25px;
+    height: 25px;
+    color: #e4d1b8;
+  }
+  .color-white {
+    color: #fff;
+  }
+  
+  .fade-away {
+    color: #778794;
+  }
+  
+  .text-highlight {
+    color: var(--primary-color);
+  }
+  .text-lin-sm{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .text-lin-lg{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }

@@ -1,0 +1,171 @@
+#Description-aboutus .content-aboutUs {
+  border: 1px solid #4C439F1A;
+  border-radius: 25px;
+  overflow: hidden;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+#Description-aboutus .box-aboutUs {
+  background-color: #f6f5fa;
+  background-image: url(../../img/about-us-background.svg);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Description-aboutus .img-aboutus svg {
+  width: 60px;
+  height: 60px;
+  color: var(--primary-color);
+}
+
+#Description-aboutus .btn-Description {
+  display: inline-block;
+  background-color: rgb(0, 0, 0);
+  padding: 5px 10px;
+  border-radius: 9px;
+  transition: 0.5s;
+}
+
+#Description-aboutus .btn-Description a {
+  color: #fff;
+  text-decoration: none;
+}
+#Description-aboutus .btn-Description:hover {
+  background-color: var(--primary-color);
+  transition: 0.5s;
+}
+
+#Description-aboutus .btn-aboutus{
+  display: inline-block;
+  background-color: #fff;
+  padding: 5px 10px;
+  margin: 0 20px;
+  border: 1px solid #E8E9EB;
+  border-radius: 9px;
+  transition: 0.5s;
+}
+
+#Description-aboutus .btn-aboutus a {
+  color: #000000;
+  text-decoration: none;
+  transition: 0.5s;
+}
+#Description-aboutus .btn-aboutus:hover {
+  background-color: var(--primary-color);
+  color: #fff;
+  transition: 0.5s;
+}
+#Description-aboutus .btn-aboutus:hover.btn-aboutus a {
+  color: #fff;
+  transition: 0.5s;
+}
+
+/* .accordion-button:not(.collapsed) {
+    background-color: #007bff !important; 
+    color: white !important;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-color: #007bff !important; 
+}
+
+.accordion-item .accordion-button:not(.collapsed) {
+    background-color: #007bff !important; 
+} */
+#Frequently-Questions .content-question {
+  box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.09);
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+#Frequently-Questions .box-question {
+  position: relative;
+  border-radius: 25px;
+  border: none;
+  margin: 0 0;
+  padding: 0 0;
+}
+#Frequently-Questions .question-number {
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid var(--primary-color);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  top: 11px;
+  right: -12px;
+  z-index: 20;
+}
+
+#Frequently-Questions .question-number .number {
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+/* footer */
+#footer {
+  background-color: #fafbfc;
+}
+#footer .container {
+  border-radius: 25px;
+  border: 1px solid rgba(54, 162, 197, 0.2);
+}
+#footer .box-footer {
+  border-radius: 25px;
+  border: 1px solid rgba(54, 162, 197, 0.2);
+  background-color: #fff;
+}
+#footer .logo-footer img {
+  width: 100px;
+  height: 100px;
+}
+#footer .img-trust img {
+  width: 100px;
+  height: 100px;
+}
+#footer .mnu-footer {
+  border-radius: 25px;
+  border: 1px solid rgba(54, 162, 197, 0.2);
+  background-color: #fff;
+  height: 97%;
+}
+
+#footer .mnu-footer li {
+  list-style: none;
+}
+
+#footer .mnu-footer li a {
+  text-decoration: none;
+  color: #778794;
+  transition: .5s;
+}
+#footer .mnu-footer li a:hover {
+  color: var(--primary-color);
+  transition: .5s;
+}
+#footer .communication {
+  border-radius: 25px;
+  border: 1px solid rgba(54, 162, 197, 0.2);
+  background-color: #fff;
+}
+#footer .logo-communication svg {
+  width: 30px;
+  height: 25px;
+  color: #778794;
+  transition: .5s;
+}
+#footer .logo-communication svg:hover {
+  color: var(--primary-color);
+  transition: .5s;
+}
+#footer .communication-address svg {
+  height: 15px;
+  margin: 0px 4px;
+  color: #e4d1b8;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #fff !important;
+}
