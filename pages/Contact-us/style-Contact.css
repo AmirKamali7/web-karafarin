@@ -1,0 +1,129 @@
+
+
+
+
+
+
+
+
+
+#Contact-us-details .box-Contact-us{
+    border: 1px solid black;
+    border-end-end-radius: 70px;
+    border-top-right-radius: 70px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+#Contact-us-details .img-Contact img{
+    width: 100%;
+}
+
+
+#Contact-us-details .map-Contact{
+    border-radius: 25px;
+    border: 1px solid #778794;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+#Contact-us .box-Contact {
+  display: flex;
+  background-color: #fff;
+  padding: 30px 0px 30px 45px;
+  border: 1px solid rgba(47, 57, 191, 0.1);
+  border-radius: 25px;
+  align-items: stretch;
+  gap: 35px;
+}
+
+#Contact-us .icon-Contact {
+  background-color: rgba(75, 66, 159, 0.05);
+  width: 80px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+}
+#Contact-us .icon-Contact svg {
+  width: 50px;
+  height: 50px;
+  padding: 0 10px;
+  color: var(--primary-color);
+}
+
+/* footer */
+#footer {
+  background-color: #fafbfc;
+}
+#footer .container {
+  border-radius: 25px;
+  border: 1px solid rgba(54, 162, 197, 0.2);
+}
+#footer .box-footer {
+  border-radius: 25px;
+  border: 1px solid rgba(54, 162, 197, 0.2);
+  background-color: #fff;
+}
+#footer .logo-footer img {
+  width: 100px;
+  height: 100px;
+}
+#footer .img-trust img {
+  width: 100px;
+  height: 100px;
+}
+#footer .mnu-footer {
+  border-radius: 25px;
+  border: 1px solid rgba(54, 162, 197, 0.2);
+  background-color: #fff;
+  height: 97%;
+}
+
+#footer .mnu-footer li {
+  list-style: none;
+}
+
+#footer .mnu-footer li a {
+  text-decoration: none;
+  color: #778794;
+  transition: .5s;
+}
+#footer .mnu-footer li a:hover {
+  color: var(--primary-color);
+  transition: .5s;
+}
+#footer .communication {
+  border-radius: 25px;
+  border: 1px solid rgba(54, 162, 197, 0.2);
+  background-color: #fff;
+}
+#footer .logo-communication svg {
+  width: 30px;
+  height: 25px;
+  color: #778794;
+  transition: .5s;
+}
+#footer .logo-communication svg:hover {
+  color: var(--primary-color);
+  transition: .5s;
+}
+#footer .communication-address svg {
+  height: 15px;
+  margin: 0px 4px;
+  color: #e4d1b8;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+.accordion-button:not(.collapsed) {
+  background-color: #fff !important;
+}
