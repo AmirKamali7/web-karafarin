@@ -1,0 +1,250 @@
+/* مدیا کوئری برای دسکتاپ */
+@media (min-width: 992px) {
+    .h-1 {
+        font-size: 3rem;
+    }
+
+    /* حدود 48px */
+    .h-2 {
+        font-size: 2.5rem;
+    }
+
+    /* حدود 40px */
+    .h-3 {
+        font-size: 2rem;
+    }
+
+    /* حدود 32px */
+    .h-4 {
+        font-size: 1.5rem;
+    }
+
+    /* حدود 24px */
+
+    .h-5 {
+        font-size: 1.25rem;
+    }
+
+    /* حدود 20px */
+
+    .body-text {
+        font-size: 1rem;
+    }
+
+    /* حدود 16px */
+    .body-small {
+        font-size: 0.875rem;
+    }
+
+    /* حدود 14px */
+}
+
+/* مدیا کوئری برای تبلت */
+@media (min-width: 768px) and (max-width: 991px) {
+    .h-1 {
+        font-size: 2.5rem;
+    }
+
+    /* حدود 40px */
+    .h-2 {
+        font-size: 2rem;
+    }
+
+    /* حدود 32px */
+    .h-3 {
+        font-size: 1.75rem;
+    }
+
+    /* حدود 28px */
+    .h-4 {
+        font-size: 1.5rem;
+    }
+
+    /* حدود 24px */
+
+    .h-5 {
+        font-size: 1.125rem;
+    }
+
+    /* حدود 18px */
+
+    .body-text {
+        font-size: 1rem;
+    }
+
+    /* حدود 16px */
+    .body-small {
+        font-size: 0.875rem;
+    }
+
+    /* حدود 14px */
+}
+
+/* مدیا کوئری برای موبایل */
+@media (max-width: 767px) {
+    .h-1 {
+        font-size: 2rem;
+    }
+
+    /* حدود 32px */
+    .h-2 {
+        font-size: 1.75rem;
+    }
+
+    /* حدود 28px */
+    .h-3 {
+        font-size: 1.5rem;
+    }
+
+    /* حدود 24px */
+    .h-4 {
+        font-size: 1.25rem;
+    }
+
+    /* حدود 20px */
+
+    .h-5 {
+        font-size: 1rem;
+    }
+
+    /* حدود 16px */
+
+    .body-text {
+        font-size: 0.875rem;
+    }
+
+    /* حدود 14px */
+    .body-small {
+        font-size: 0.75rem;
+    }
+
+    /* حدود 12px */
+}
+
+@font-face {
+    font-family: MEEM-Regular;
+    font-style: normal;
+    font-weight: normal;
+    src: url('/fonts/TTF/Meem-Regular.ttf');
+    src: url('/fonts/WOFF/Meem-Regular.woff') format('woff'),
+        url('/fonts/WOFF2/Meem-Regular.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: MEEM-Bold;
+    font-style: normal;
+    font-weight: bold;
+    src: url('/fonts/TTF/Meem-Bold.ttf');
+    src: url('/fonts/WOFF/Meem-Bold.woff') format('woff'),
+        url('/fonts/WOFF2/Meem-Bold.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: MEEM-Thin;
+    font-style: normal;
+    font-weight: 100;
+    src: url('/fonts/TTF/Meem-thin.ttf');
+    src: url('/fonts/WOFF/Meem-thin.woff') format('woff'),
+        url('/fonts/WOFF2/Meem-thin.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: MEEM-Light;
+    font-style: normal;
+    font-weight: 300;
+    src: url('/fonts/TTF/Meem-Light.ttf');
+    src: url('/fonts/WOFF/Meem-Light.woff') format('woff'),
+        url('/fonts/WOFF2/Meem-Light.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: MEEM-Medium;
+    font-style: normal;
+    font-weight: 500;
+    src: url('/fonts/TTF/Meem-Medium.ttf');
+    src: url('/fonts/WOFF/Meem-Medium.woff') format('woff'),
+        url('/fonts/WOFF2/Meem-Medium.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: MEEM-ExtraBold;
+    font-style: normal;
+    font-weight: 800;
+    src: url('/fonts/TTF/Meem-ExtraBold.ttf');
+    src: url('/fonts/WOFF/Meem-ExtraBold.woff') format('woff'),
+        url('/fonts/WOFF2/Meem-ExtraBold.woff2') format('woff2');
+    font-display: swap;
+}
+
+@font-face {
+    font-family: MEEM-Black;
+    font-style: normal;
+    font-weight: 850;
+    src: url('/fonts/TTF/Meem-Black.ttf');
+    src: url('/fonts/WOFF/Meem-Black.woff') format('woff'),
+        url('/fonts/WOFF2/Meem-Black.woff2') format('woff2');
+    font-display: swap;
+}
+
+:root {
+    --font-normal: 'MEEM-Regular';
+    --font-bold: 'MEEM-Bold';
+    --font-100: 'MEEM-Thin';
+    --font-300: 'MEEM-Light';
+    --font-500: 'MEEM-Medium';
+    --font-800: 'MEEM-ExtraBold';
+    --font-850: 'MEEM-Black';
+    --primary-color: #36a2c5;
+    --transition: 200ms;
+
+}
+
+.title-section {
+    font-family: var(--font-bold);
+}
+
+
+
+  body {
+    direction: rtl;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    font-family: var(--font-normal) !important;
+  }
+
+  /* Duplicate codes */
+  .interest svg {
+    width: 25px;
+    height: 25px;
+    color: #e4d1b8;
+  }
+  .color-white {
+    color: #fff;
+  }
+  
+  .fade-away {
+    color: #778794;
+  }
+  
+  .text-highlight {
+    color: var(--primary-color);
+  }
+  .text-lin-sm{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .text-lin-lg{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }

@@ -92,3 +92,30 @@ var swiper = new Swiper(".Comment-Swiper", {
         },
     },
 });
+
+// منو
+
+document.querySelectorAll('.dropdown-toggle').forEach(function(toggle) {
+    toggle.addEventListener('click', function(e) {
+        e.preventDefault();
+        let dropdownMenu = this.nextElementSibling;
+        let isVisible = dropdownMenu.style.display === 'block';
+        document.querySelectorAll('.dropdown-menu').forEach(function(menu) {
+            menu.style.display = 'none';
+        });
+        dropdownMenu.style.display = isVisible ? 'none' : 'block';
+    });
+});
+
+document.addEventListener('click', function(e) {
+    if (!e.target.matches('.dropdown-toggle')) {
+        document.querySelectorAll('.dropdown-menu').forEach(function(menu) {
+            menu.style.display = 'none';
+        });
+    }
+});
+
+// لودینگ
+function hideLoading() {
+    document.getElementById('loading').style.display = 'none';
+}
